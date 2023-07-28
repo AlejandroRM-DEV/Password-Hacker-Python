@@ -11,4 +11,5 @@ programming_language: Python
 environment: unittest
 content:
 - Topics
+- Password Hacker (Python)
 mode: Study

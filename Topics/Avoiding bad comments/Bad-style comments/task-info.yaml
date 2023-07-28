@@ -1,0 +1,27 @@
+type: matching
+captions:
+- '# what a silly code style that is!'
+- '# this is a variable'
+- "# here I wanted to do something cool, but eventually I ended up with something\
+  \ that nobody can really understand"
+- '# tbd ltr cz dn hw t fx ths'
+options:
+- Too long
+- Uninformative
+- Unreadable
+- Rude
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6444#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
