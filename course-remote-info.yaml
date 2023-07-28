@@ -1,0 +1,7 @@
+hyperskill_project:
+  id: 80
+  ide_files: https://cogniterra.org/media/attachments/lesson/24447/additional_files.json
+  is_template_based: false
+  use_ide: true
+  environment: unittest
+update_date: "Thu, 01 Jan 1970 00:00:00 UTC"
