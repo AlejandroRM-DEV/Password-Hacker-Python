@@ -1,3 +1,5 @@
 content:
 - Context manager
 - Avoiding bad comments
+- Map and filter
+- Itertools module
