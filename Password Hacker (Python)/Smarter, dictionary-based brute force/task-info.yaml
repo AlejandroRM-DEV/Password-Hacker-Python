@@ -143,6 +143,12 @@ files:
 
     if __name__ == '__main__':    test = Hacking('hacking.hack')    test.run_tests()    test.stop_server()
   learner_created: false
+- name: hacking/passwords.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/7218#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 29 Jul 2023 05:44:16 UTC"
 record: -1

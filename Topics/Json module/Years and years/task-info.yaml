@@ -1,0 +1,21 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  highlight_level: NONE
+  text: |-
+    import json
+
+
+    years = {2020: "leap year", 2021: "regular year", 2022: "regular year",
+             2023: "regular year", 2024: "leap year"}
+
+    # convert years to JSON string
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9003#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 29 Jul 2023 05:51:34 UTC"
+record: -1
+submission_language: python3
